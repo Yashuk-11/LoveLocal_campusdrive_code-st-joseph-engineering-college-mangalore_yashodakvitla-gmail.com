@@ -4,10 +4,9 @@ import java.util.Scanner;
 public class Slidingwindow {
 	
 	void maxSlidingwindow(int[] nums,int k){
-		
-        for(int i=0;i<nums.length;i++){
+		for(int i=0;i<nums.length;i++){
             int max=nums[i];              //storing a first value in the sliding window into max
-            int m=i+k;						//to get sliding window width at each iteration
+            int m=i+k;				//to get sliding window width at each iteration
             if(m<=nums.length){				
                 for(int j=i+1;j<m;j++){		//looping through the sliding window
                     if(nums[j]>max){		//calculating max value in the sliding window. checking current value is greater than max value. 
