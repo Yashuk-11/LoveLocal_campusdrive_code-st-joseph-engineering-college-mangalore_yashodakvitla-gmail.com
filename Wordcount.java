@@ -18,9 +18,6 @@ public class PascalTriangle {
         		System.out.print(a[line][i]+" ");				//print the result
         	}
         	System.out.println();								//to start from new line
-        }
-        
-        	
-        
+        }   
     }
 }

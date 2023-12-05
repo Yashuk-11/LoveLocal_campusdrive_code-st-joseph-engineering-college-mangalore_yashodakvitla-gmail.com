@@ -32,5 +32,4 @@ public class Slidingwindow {
         int k=sc.nextInt();				//read window width
         s.maxSlidingwindow(nums,k);		//call the function to perform operation
 	}
-
 }
