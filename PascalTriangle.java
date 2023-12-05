@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class PascalTriangle {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);     
-        int n=sc.nextInt();               		//read n value
+        int n=sc.nextInt();               	//read n value
         
         int[][] a=new int[n][n];			//Initialize 2D array to store value
         for(int line=0;line<n;line++) {		//for each line 
@@ -15,9 +15,9 @@ public class PascalTriangle {
         		else {
         			a[line][i]=a[line-1][i-1]+a[line-1][i];   //current value=left of above of current + value of above of current 
         		}
-        		System.out.print(a[line][i]+" ");	//print the result
+        		System.out.print(a[line][i]+" ");	          //print the result
         	}
-        	System.out.println();				//to start from new line
+        	System.out.println();				              //to start from new line
         }   
     }
 }
