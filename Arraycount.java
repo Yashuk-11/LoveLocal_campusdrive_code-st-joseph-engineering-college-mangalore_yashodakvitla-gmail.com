@@ -15,7 +15,7 @@ public class Arraycount {
 	    Collections.sort(a);							//sort array in ascending order
 	    int b=a.size()/3;								//find the condition or limit
 	    int i=0;
-        while(i<n) {
+        	while(i<n) {
         	int cnt=Collections.frequency(a, a.get(i));  //finding frequency of each value in array
 	        if(cnt>b) {
 	        	System.out.print(a.get(i)+" ");         //print the value if number occurs more than the limit or condition

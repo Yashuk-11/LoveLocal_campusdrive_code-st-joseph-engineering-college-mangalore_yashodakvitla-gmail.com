@@ -22,7 +22,8 @@ public class Slidingwindow {
     }
     
 	public static void main(String[] args) {
-		Slidingwindow s=new Slidingwindow();
+        
+	    Slidingwindow s=new Slidingwindow();
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();				//reads the array size
         int[] nums=new int[n];			//Initialization
